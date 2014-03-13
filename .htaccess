@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ifwhen\.us$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ifwhen\.us$
+RewriteRule ^doc\/$ "http\:\/\/ifwhen\.us\/" [R=301,L]
+
