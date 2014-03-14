@@ -134,6 +134,10 @@ header .social a { text-decoration:none; color:#000; padding:0 20px; font-size:1
 .issues li.issue01 .button { border-color:#45535b; color:#3a4148; }
 .issues li.issue01 .button:hover { color:#313c45; background:#aed0e4; }
 
+.thankyou * { width:100%;}
+
+.paypal-button { display:block; margin-top:20px; }
+
 .submissions ul, 
 .about ul { padding:2em; }
 .people a { color:#000; text-decoration:none; }
@@ -269,6 +273,7 @@ header h2 { max-width:28%; display:inline-block; }
 .row { max-width:44%; display:inline-block; vertical-align:top; float:right; margin-right:1%; }
 .alert { max-width:100%; width:100%; margin-right:0; z-index:2; }
 .issues { float:left; margin-left:1%; }
+.thankyou, .contributor-copies { float:none; margin:0 auto; display:block; }
 }
 @media only screen and (max-height:400px) { 
 /* for short screens, like iPhone in landscape */
